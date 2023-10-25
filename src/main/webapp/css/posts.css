@@ -1,0 +1,129 @@
+html, body{
+    min-height: 100%;
+    height: 100%;
+}
+
+
+
+.post{
+    position: relative;
+    border: 2px solid #011738;
+    border-radius: 10px;
+    width: 900px;
+    color: #011738;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post__title{
+    font-size: 26px;
+    text-align: center;
+}
+
+.post__content{
+    font-size: 18px;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 1 1 auto;
+}
+
+.post__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__button{
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    font-size: 17px;
+    border-radius: 10px;
+    background: #17A92F;
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    font-weight: 700;
+}
+
+.posts__addButton{
+    margin: 0 0 50px 0;
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 10px;
+    background: #17A92F;
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    font-weight: 700;
+}
+
+
+
+
+
+.comment__input{
+    border-radius: 10px;
+    border: 2px solid #011738;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.comment__input::placeholder {
+    color: #D3D3D3;
+}
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main{
+    margin: 100px auto;
+    flex: 1 1 100%;
+}
+
+.comment{
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #011738;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: flex;
+    gap: 10px;
+}
+.comment__text{
+    flex: 1 1 auto;
+}
+
+.post__delete{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.comment__delete{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+}

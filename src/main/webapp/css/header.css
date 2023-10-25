@@ -1,0 +1,103 @@
+@import "reset.css";
+
+
+
+.header__top, .header__bottom {
+    padding: 20px 0;
+}
+
+
+
+.header__container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__text {
+    flex: 1 1 auto;
+}
+
+.header__text div {
+    max-width: 213px;
+    color: #011738;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 135%;
+}
+
+.header__location {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.header__location-text {
+    color: #011738;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 135%;
+}
+
+.header__call {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.header__call-number {
+    color: #011738;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header__call-text {
+    color: #011738;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 135%;
+}
+
+.header__register{
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header__bottom {
+    background: #002D70;
+    color: #fff;
+}
+
+.header__menu {
+    flex: 1 1 auto;
+}
+
+.header__list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header__list-item {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 135%; /* 18.9px */
+}
+
+.header__enter {
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    padding: 15px 30px;
+}
+
+.user__login{
+    display: block;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 30px 0 0;
+}
+

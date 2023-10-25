@@ -1,0 +1,8 @@
+.danger{
+    border: 2px solid red;
+}
+
+.input__button[disabled] {
+    cursor: auto;
+    background: #484848;
+}

@@ -1,0 +1,187 @@
+.swiperDoctors {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding: 0 30px;
+}
+
+.doctor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.active-item {
+    border: 2px solid rgba(1, 23, 56, 0.50);
+}
+
+.doctor img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    flex: 1 1 auto;
+}
+
+
+.doctors__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+h1 {
+    color: #011738;
+    font-size: 30px;
+    font-weight: 600;
+    width: 100%;
+}
+
+h3 {
+    color: #011738;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 135%;
+    width: 100%;
+}
+
+main {
+    margin: 100px 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 100px;
+    position: relative;
+}
+
+.doctor__name {
+    margin: 15px 0 0 0;
+}
+
+.doctorInfo__block {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+}
+
+.doctorInfo__image img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.doctorInfo__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.doctorInfo__name {
+    color: #011738;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.doctorInfo__ageWork, .doctorInfo__special {
+    font-size: 20px;
+    font-weight: 600;
+    color: #011738;
+}
+
+.doctorInfo__description {
+    flex: 1 1 auto;
+    margin: 50px 0 0 0;
+    color: #011738;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 135%;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+}
+
+.swiper-button-prev {
+    background: url("../img/arrow-chevron-left.svg") center / cover no-repeat;
+}
+
+.swiper-button-next {
+    background: url("../img/arrow-right.svg") center / cover no-repeat;
+}
+
+.doctor__button {
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 10px;
+    background: #17A92F;
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    font-weight: 700;
+}
+
+.main {
+    margin: 100px auto;
+}
+
+.doctor__input {
+    border-radius: 10px;
+    border: 2px solid #011738;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.review {
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #011738;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.review__delete{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.review__text{
+    flex: 1 1 auto;
+}
+
+.doctorInfo__reviews-title{
+    color: #011738;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 50px 0;
+}
